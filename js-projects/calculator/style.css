@@ -1,0 +1,151 @@
+/* Display HTML5 structural elements as blocks */
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+  display: block;
+}
+
+
+/* Set the default page element styles */
+
+body {
+   background: rgb(190, 200, 200) url("http://imgur.com/TyUg0pK");
+   margin: 0px;
+}
+
+body * {
+
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.2em;
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+   vertical-align: baseline;
+
+}
+
+/* Main Page Styles */
+
+#main {
+   background-color: white;
+   width: 90%;
+   min-width: 700px;
+   max-width: 1000px;
+   margin: 0px auto;
+   position: relative;
+}
+
+#main div {
+   position: absolute;
+   top: 0px;
+   right: 15px;
+   color: white;
+   line-height: 55px;
+}
+
+#main div input {
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+
+}
+
+header h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    color: steelblue;
+    text-shadow: rgb(181, 181, 181) 3px 3px 5px;
+    
+}
+
+article h1{
+  font-size: 2.4em;
+   margin: 20px 0px;
+   letter-spacing: 5px;
+  text-align:center;
+  font-family: Verdana, Geneva, sans-serif;
+  color: steelblue;
+  text-shadow: rgb(181, 181, 181) 3px 3px 5px;
+}
+
+
+/* Table Styles */
+
+table {
+   background-color: rgb(211, 211, 211);
+
+   border: 10px outset rgb(92, 92, 92);
+   -moz-border-radius: 25px;
+   -webkit-border-radius: 25px;
+   border-radius: 25px;
+
+   padding: 15px;
+   margin: 25px auto;
+
+   -moz-box-shadow: rgb(101, 101, 101) 20px 10px 20px;
+   -webkit-box-shadow: rgb(101, 101, 101) 20px 10px 20px;
+   box-shadow: rgb(101, 101, 101) 20px 10px 20px;
+
+}
+
+#screen{
+    background: hsl(90,20%,30%);
+	border-radius: 3px;
+	box-shadow: inset 2px 2px 2px 5px rgba(0, 0, 0, 0.8);
+  /* Typography */
+	font-size: 24px;
+	line-height: 40px;
+	color: black;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+
+td {
+   width: 50px;
+   height: 40px;
+   margin: 10px;
+}
+
+table input {
+
+   -moz-border-radius: 7px;
+   -webkit-border-radius: 7px;
+   border-radius: 7px;
+
+   width: 40px;
+   width: 100%;
+
+   height: 40px;
+   height: 100%;
+}
+
+
+
+/* Page footer styles */
+
+footer {
+   background-color: rgba(64, 64, 64, 0.68);
+   clear: left;
+   color: rgb(231, 231, 231);
+   color: rgba(255, 255, 255, 0.7);
+   font-size: 0.8em;
+   height: 10px;
+   line-height: 10px;
+   padding: 10px;
+   text-align: center;
+    text-shadow: black 2px 1px 0px;
+    outline: 1px solid black;
+}
+
+#main {
+   -moz-box-shadow: rgb(101, 101, 101) -20px 0px 20px,
+               rgb(101, 101, 101) 20px 0px 20px;
+   -webkit-box-shadow: rgb(101, 101, 101) -20px 0px 20px,
+               rgb(101, 101, 101) 20px 0px 20px;
+   box-shadow: rgb(101, 101, 101) -20px 0px 20px,
+               rgb(101, 101, 101) 20px 0px 20px;
+}
